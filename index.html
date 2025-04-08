@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/download.jfif" type="image/x-icon">
+    <title>Interactive Message</title>
+</head>
+<body>
+    <!-- Main interactive message container -->
+    <div class="message">
+        <button class="message__btn">Click Me</button>
+        <p class="message__text"></p> 
+    </div>
+
+    <!-- Reload button -->
+    <button class="reload highlight">Ready</button>
+    
+
+    <div class="typing-message"></div>
+
+    <!-- Particles.js container -->
+    <div id="tsparticles"></div>
+
+    <div id="gif-container">
+        <img src="./img/2.gif" alt="Celebration GIF">
+    </div>
+   
+    <!-- Background music -->
+    <audio id="background-music" src="./music/happy-birthday.mp3"></audio>
+
+    <!-- Typing sound -->
+    <audio id="typing-sound" src="./music/keyboard-typing-5997.mp3" loop></audio>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
