@@ -27,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f79d65;
+  background-color: linear-gradient(to right, #ff9a9e, #fad0c4);;
   font-family: "Bungee", cursive;
   user-select: none;
   cursor: url('./img/download.jfif'), auto; /* Đường dẫn đến icon tùy chỉnh */
