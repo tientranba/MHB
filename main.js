@@ -370,7 +370,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "",
             "",
             "Mayyy biết gì chưa?",
-            "Sắp tới sẽ một ngày đặc biệt,",
+            "Sắp tới sẽ một ngày siêuu đặc biệt,",
             "Ngày sinh thần của một Bông Hoa xinh đẹp,",
             "Chúc Mayyy tuổi mới rực rỡ!",
             "Luôn lạc quan và giữ mãi nụ cười trên môi của mình  nhéee!🎉🎉🎉",
@@ -409,7 +409,7 @@ document.addEventListener("DOMContentLoaded", () => {
         reloadButton.style.display = "none"; // Ẩn nút reload ban đầu
         setTimeout(() => {
             reloadButton.style.display = "block"; // Hiển thị nút reload sau 5 giây
-        }, 5000); // Delay 5 giây
+        }, 10000); // Delay 5 giây
     }
 });
 
